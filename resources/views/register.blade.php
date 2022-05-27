@@ -51,7 +51,7 @@
                             Pemeriksaan</label>
                         <input type="text" id="name"
                             class="bg-gray-50 cursor-not-allowed border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                            placeholder="" value="Kantor Desa Sukamiskin" name="lokasi"  readonly>
+                            placeholder="" value="Kantor Kelurahan Sukamiskin" name="lokasi"  readonly>
                     </div>
                     <div>
                         <label for="last_name"
@@ -72,7 +72,7 @@
                     <div>
                         <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Nomor
                             Telpon/Whatsapp</label>
-                        <input type="text" id="phone"
+                        <input type="tel" id="phone"
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                             placeholder="08xx-xxxx-xxxx" required="" name="whatsapp">
                     </div>
@@ -86,14 +86,14 @@
                     <div>
                         <label for="phone"
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Desa/Kelurahan</label>
-                        <input type="tel" id="phone"
+                        <input type="text" id="phone"
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                             placeholder="" name="desa" required="">
                     </div>
                     <div>
                         <label for="company"
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">RW</label>
-                        <input type="text" id="company"
+                        <input type="tel" id="company"
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                             placeholder="" name="rw" required="">
                     </div>
